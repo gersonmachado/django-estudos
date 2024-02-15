@@ -20,3 +20,16 @@
 - [VisualStudioCode](https://code.visualstudio.com/) - IDE
 - [Python](https://www.python.org)
 - [Django](https://www.djangoproject.com/)
+
+## Preview
+![Print do funcionamento](https://github.com/gersonmachado/django-estudos/blob/main/img-todolist.jpg)
+
+## Funções
+- Visualizar tarefas (OK)
+- Adicionar tarefas (OK)
+- Editar Tarefas (OK)
+- Excluir tarefas (OK) 
+- Concluir tarefas (OK)
+- LoginPage/LoginStatus (Pendente)
+- Limitar funções para usuário deslogado (Pendente)
+- Habilitar funcões apenas para usuário logado (Pendente)
