@@ -1,0 +1,12 @@
+<h1>Lista de tarefas</h1>
+
+<p>Exibindo lista:</p>
+
+{% for a in todos %}
+<ul>
+    
+    <li> {{ a.title}}, Criado em: {{a.criated_at}}, <strong>Deadline:</strong> {{a.deadline}} </li>
+
+</ul>
+
+{% endfor %}
