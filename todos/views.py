@@ -77,7 +77,7 @@ from django.shortcuts import get_object_or_404, redirect
 
 class TodoCompleteView(View):
     def get(self, request, pk): # Receba estes parâmetros
-        todo = get_object_or_404(Todo, pk=pk) # Busque no banco de dados uma tarefa que tenha pk = pk ou apresente #404
+        todo = get_object_or_404(Todo, pk=pk) # Busque no banco de dados uma tarefa que tenha pk == pk ou apresente #404
         todo.finalizado = date.today()
         todo.save()
         return redirect("home_pg") #Redirecionar para página inicial 
