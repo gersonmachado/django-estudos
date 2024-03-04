@@ -10,6 +10,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # path("", home),  #Exemplo: Declarando a nova rota criada na todo.views com a função home
     path("", todo_list, name="home_pg"),
+    # utiliza-se as_view() quando estou chamando classes - CBV ClassBaseViews
     path("create", TodoCreateView.as_view(), name="create_pg"),
     # adicionar variável na path através de <>, tipo de variável e nome da variável <tipo:nome>
     path("update/<int:pk>", TodoUpdateView.as_view(), name="update_pg"),
